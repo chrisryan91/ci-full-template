@@ -51,7 +51,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #hero-outer {
@@ -221,4 +221,15 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos > img {
+    width: 100%;
 }
